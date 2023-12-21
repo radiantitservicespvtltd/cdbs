@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>faculty Login| Sinhgad Institutes</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="faculty.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo"><img src="img/favicon.jpg" alt=""></div>
+            <div class="title">
+                <h1>Sinhgad Institutes</h1>
+                <h4>Empowering Academics Excellence</h4>
+            </div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="hero">
+            <h2>Faculty Login Portal</h2>
+            <p>
+                <!-- We are flattered you’ve decided to apply! Sinhgad Institutes accepts several different applications, so
+                make sure that you choose the one that works best for you. -->
+            </p>
+            <div class="buttons">
+                <a href="about.html" class="learn">Learn More</a>
+            </div>
+        </div>
+        <div class="login-container">
+            <h2>College Faculty Login</h2>
+            <form action="/login" method="post">
+                <label for="studentID">Student ID:</label>
+                <input type="text" id="studentID" name="studentID" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <input type="submit" value="Login">
+            </form>
+            <div class="login-footer">
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

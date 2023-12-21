@@ -1,0 +1,264 @@
+
+* {
+    margin:0px;
+    padding:0px;
+}
+html, body {
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+}
+.container-logo{
+    width: 15%;
+
+}
+.heading-1{
+    margin: 45px 0px 0px 65px;
+}
+.heading-1 h1{
+    font-size: 30px;
+    color: rgb(235, 49, 49);
+
+}
+.heading-1 h4{
+    font-size: 20px;
+    color: rgb(121, 121, 121); ;
+}
+.container {
+    width:90%;
+    margin:0px 20px;
+}
+.main-section {
+    margin: 0px auto;
+    width: 90%;
+    padding:20px 0px 20px 0px;
+}
+
+.heading {
+    font-size: 22px;
+    float: left;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(235, 49, 49);
+    margin-bottom:25px;
+    color:rgb(235, 49, 49);
+}
+ 
+.logo {
+    width:100%;
+}
+  
+nav {
+    width: 100%;
+    float: left;
+    background:rgb(235, 49, 49);
+    padding:15px 0px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #ffc3c3;
+    padding:2px 20px;
+}
+.slider img {
+    width:100%;
+}  
+.about-us img {
+    width:24%;
+    float:left;
+    height: 400px;
+}
+.about-us div {
+    width:70%;
+    margin-left:20px;
+    float:left;
+    line-height:35px;
+}
+.main-section-1{
+    margin: 0px auto;
+    width: 90%;
+    padding:20px 0px 20px 0px;
+}  
+.testimonial {
+    width: 380px;
+    float: left;
+    margin-right:10px;
+}
+.testimonial-text {
+    background: #f0f3fa;
+    padding: 20px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.testimonial-detail {
+    float:left;
+    margin-top:10px;
+}
+
+.testimonial-name {
+    margin-left:10px;
+    float:left;
+}
+.testimonial-name h5 {
+    font-size:18px;
+    margin-top:8px;
+} 
+.info {
+    display: flex;
+    border-bottom: 3px solid rgb(121, 121, 121);
+
+}
+
+.map {
+    width: 35%;
+    height: 350px;
+    /* border: 1px solid yellow; */
+    padding: 30px;
+    margin: 20px 40px;
+}
+
+.map h4 {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(175, 173, 173);
+    padding: 2px;
+}
+
+.map h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
+
+.map p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
+    font-size: 16px;
+    color: rgb(107, 103, 103);
+}
+
+.map a {
+    text-decoration: none;
+    color: rgb(235, 49, 49);
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+}
+
+.map a:hover {
+    color: black;
+    border-bottom: 1px solid rgb(235, 49, 49);
+}
+
+.wall {
+    border: 2p solid black;
+    width: 90%;
+    height: 450px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.wall img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.event {
+    display: flex;
+    border-bottom: 3px solid rgb(121, 121, 121);
+
+}
+
+.event-info {
+    width: 35%;
+    height: 350px;
+    /* border: 1px solid yellow; */
+    padding: 30px;
+    margin: 20px 40px;
+}
+
+.event-info h4 {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(175, 173, 173);
+    margin: 0px;
+    font-size: 19px;
+    padding: 2px;
+}
+
+.event-info h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    margin: 25px 0px 0px 0px;
+}
+
+.event-info p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
+    font-size: 16px;
+    color: rgb(107, 103, 103);
+}
+
+.event-info a {
+    text-decoration: none;
+    color: rgb(235, 49, 49);
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+}
+
+.event-info a:hover {
+    color: black;
+    border-bottom: 1px solid rgb(235, 49, 49);
+}
+
+.event-vid {
+    border: 2p solid black;
+    width: 90%;
+    height: 450px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.placement img {
+    border:1px solid #dfdfdf;
+}
+.footer {
+    background-color:#1f2836;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 0px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+

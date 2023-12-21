@@ -1,0 +1,359 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+html, body {
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+}
+.container-logo{
+    width: 15%;
+
+}
+.heading-1{
+    margin: 45px 0px 0px 65px;
+}
+.heading-1 h1{
+    font-size: 30px;
+    color: rgb(235, 49, 49);
+
+}
+.heading-1 h4{
+    font-size: 20px;
+    color: rgb(121, 121, 121); ;
+}
+.container {
+    width:90%;
+    margin:0px 20px;
+}
+.main-section {
+    margin: 0px auto;
+    width: 90%;
+    padding:10px 0px 10px 0px;
+}
+
+.heading {
+    font-size: 22px;
+    float: left;
+    font-weight: 500;
+    border-bottom: 1px solidrgb(235, 49, 49);
+    margin-bottom:25px;
+    color:rgb(235, 49, 49);
+}
+ 
+.logo {
+    width:100%;
+}
+  
+nav {
+    width: 100%;
+    float: left;
+    background:rgb(235, 49, 49);
+    padding:15px 0px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #ffc3c3;
+    padding:2px 20px;
+} 
+.slider img {
+    width:100%;
+}  
+/* .main-section video{
+    height: 500px;
+    width: 100%;
+} */
+.event {
+    display: flex;
+    border-bottom: 3px solid rgb(121, 121, 121);
+
+}
+
+.event-info {
+    width: 35%;
+    height: 350px;
+    /* border: 1px solid yellow; */
+    padding: 30px;
+    margin: 20px 40px;
+}
+
+.event-info h4 {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(175, 173, 173);
+    margin: 0px;
+    font-size: 19px;
+    padding: 2px;
+}
+
+.event-info h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    margin: 25px 0px 0px 0px;
+}
+
+.event-info p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
+    font-size: 16px;
+    color: rgb(107, 103, 103);
+}
+
+.event-info a {
+    text-decoration: none;
+    color: rgb(235, 49, 49);
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+}
+
+.event-info a:hover {
+    color: black;
+    border-bottom: 1px solid rgb(235, 49, 49);
+}
+
+.event-vid {
+    border: 2p solid black;
+    width: 90%;
+    height: 450px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.research {
+    border-bottom: 3px solid  rgb(121, 121, 121);
+     width: 90%;
+     height: 550px;
+     position: relative;
+     background-color: rgb(45, 45, 54);
+     margin: 0px auto;
+     text-align: center;
+ 
+ }
+ 
+ 
+ .research img {
+     margin: 30px 80px 0px 0px;
+     height: 300px;
+     width: 55%;
+     float: right;
+     transition: transform 0.7s;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ .research img:hover {
+ 
+     transform: perspective(2000px) rotateX(-0deg) rotateY(-10.0deg) scale3d(0.9, 0.8, 0.8);
+ }
+ 
+ 
+ .rec-title {
+    border-bottom: 4px solid yellow;
+     position: absolute;
+     width: 315px;
+     top: 80px;
+     left: 310px;
+ }
+ 
+ .rec-title h3 {
+     margin: 0px 190px 0px 0px;
+     font-family: 'Pacifico', cursive;
+     font-size: 22px;
+     color: rgb(235, 49, 49);
+     text-shadow: 4px 4px 3px rgb(75, 12, 17);
+ 
+ }
+ 
+ .rec-title h1 {
+     margin: 15px 0px 0px 0px;
+     color: rgb(255, 255, 255);
+     text-shadow: 5px 4px 3px rgb(0, 0, 0);
+     font-family: 'Martian Mono', monospace;
+     text-align: center;
+     font-size: 30px;
+ }
+ 
+ .rec-info {
+     /* border: 1px solid red; */
+     bottom: 10px;
+     position: absolute;
+     display: flex;
+     height: auto;
+ 
+ }
+ 
+ .rec-info h1 {
+     width: 30%;
+     /* border: 1px green; */
+     margin: auto 5px;
+     color: rgb(255, 255, 255);
+     text-shadow: 5px 4px 3px rgb(75, 12, 17);
+     font-family: 'Martian Mono', monospace;
+     text-align: center;
+     font-size: 25px;
+ 
+ }
+ 
+ .rec-info p {
+     /* border: 1px solid green; */
+     margin: 0px auto;
+     text-align: center;
+     font-family: 'Nunito Sans', sans-serif;
+     font-family: 'Outfit', sans-serif;
+     font-size: 17px;
+     color: rgb(255, 255, 255);
+     width: 30%;
+ }
+ .footer{
+     
+     margin-top: 3px;
+     width: 100%;
+     height: 170px;
+     padding: 10px 65px;
+     background: #333;
+     color: #efefef;
+     display: flex;
+ }
+.footer {
+    background-color:#1f2836;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 0px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
+
+.news-container {
+    border-bottom: 3px solid rgb(121, 121, 121);
+    width: 100%;
+    height: 605px;
+    background-image: url(media/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.news-container h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px 0px 0px 20px;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.news-container h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    margin: 5px 0px 0px 26px;
+    color: rgb(235, 49, 49);
+    text-shadow: 2px 3px 3px rgb(75, 12, 17);
+
+}
+
+.news {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 20px 50px 0px 50px;
+    background-image: url(img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.card {
+    border: 1px solid rgb(175, 173, 173);
+    width: 20%;
+    /* background-color: white; */
+    /* position: relative; */
+    height: 490px;
+    margin: 10px auto;
+}
+
+.news-img {
+    overflow: hidden;
+
+}
+
+.news-img img {
+    width: 100%;
+    height: 170px;
+}
+
+.news-img img:hover {
+    transform: scale(1.1);
+}
+
+.card h3 {
+    /* border: 1px solid black; */
+    font-size: 13px;
+    margin: 15px 10px 0px 10px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-weight: normal;
+}
+
+.card h2 {
+    /* border: 1px solid black; */
+    font-family: 'Mooli', sans-serif;
+    font-size: 17px;
+    margin: 5px 10px 0px 10px;
+}
+
+.card p {
+    /* border: 1px solid black; */
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 10px 0px 10px;
+    letter-spacing: 1px;
+    padding: 2px;
+}
+
+.card button {
+    border-bottom: 3px solid rgb(121, 121, 121);
+    padding: 5px;
+    float: right;
+    margin: 10px 10px 0px 0px;
+
+}
+
+.card button a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.card button:hover {
+    background-color: rgb(235, 49, 49);
+    color: aliceblue;
+}

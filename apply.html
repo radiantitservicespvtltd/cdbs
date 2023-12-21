@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>application form| Sinhgad Institutes</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="apply.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo"><img src="img/favicon.jpg" alt=""></div>
+            <div class="title">
+                <h1>Sinhgad Institutes</h1>
+                <h4>Empowering Academics Excellence</h4>
+            </div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" target="_blank">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="hero">
+            <h2>Apply For Institutes</h2>
+            <p>
+                We are flattered you ve decided to apply! Sinhgad Institutes accepts several different applications, so
+                make sure that you choose the one that works best for you.
+            </p>
+            <div class="buttons">
+                <a href="about.html" class="learn">Learn More</a>
+            </div>
+        </div>
+        <div class="container">
+            <h2>College Application Form</h2>
+            <form action="/submit.php" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="course">Desired Course:</label>
+                <input type="text" id="course" name="course" required>
+    
+                <label for="message">Why do you want to join this college?</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <input type="submit" value="Apply">
+            </form>
+        </div>
+    
+    </section>
+</body>
+
+</html>
